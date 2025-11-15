@@ -100,10 +100,83 @@ left = \relative c''' {
   \time 2/4
   \key e \major
 
-  \stemDown \normalsize e=,64 \tiny e' gis b dis \change Staff = "right" e gis b dis b gis e \change Staff = "left" dis b gis e \normalsize e,=, \tiny e' g bes dis \change Staff = "right" e g bes dis bes g e \change Staff = "left" dis bes g e | \stemNeutral
+  \stemDown \normalsize e=,64 \tiny e' gis b dis \change Staff = "right" e gis b dis b gis e \change Staff = "left" dis b gis e \normalsize e,=, \tiny e' g bes dis \change Staff = "right" e g bes dis bes g e \change Staff = "left" dis bes g e | \stemNeutral \normalsize
   \tuplet 6/4 { d,=,16 d' fis a cis a } \tuplet 3/2 { fis16 d a } d,8 |
 
   \key des \major
   \tuplet 6/4 4 { ees=,16 bes' ees ges bes des  bes16 ges ees des bes ges } |
   \tuplet 6/4 { aes,16 ees' aes c ees aes } c4 |
+  c,=16 ees ges bes c \change Staff = "right" ees ges bes | \change Staff = "left"
+  \cadenzaOn a,,[ ees' ges a] \change Staff = "right" c[ ees ges a c] ees[ ges a \cadenzaOff \partial 8 aes ges] | \change Staff = "left"
+
+  \bar "||"
+  \key e \major
+  \time 4/4
+
+
+  e,,=8 <gis b e> r q r q r q |
+  cis,8 q r q r q r q |
+  b8 <gis' b dis> r q r q r q |
+  a,8 <fis' a cis> r q r q r q |
+
+  e8 <gis b e> r q r q r q |
+  cis,8 q r q r q r q |
+  b8 <gis' b dis> r q r q r q |
+  a,8 <fis' a cis> r q r q r q |
+
+  e=8 <gis b e> r q r q r q |
+  cis,8 q r q r q r q |
+  b8 <gis' b dis> r q r q r q |
+
+
+
+  a,8 <fis' a cis> r q r q r q |
+
+  fis,8 q r q r q r q |
+  \key des \major
+  ees=,8 <ees' ges bes> r q r q r q |
+  aes,,4 <ees'' aes>2. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+  \bar "||"
+
+
+
+  ges,=,2. |
+  f2. |
+  ees2. |
+  des2. |
+
+  ges=,2. |
+  f2. |
+  \voiceTwo ees2. | \oneVoice
+  des2. |
+
+  ges=,2. |
+  f2. |
+  ees2. |
+  des2. |
+
+  ees=,16 bes' ees ges bes ees  f,, c' f aes c f |
+  ges,, des' ges bes des ges  aes,, ees' aes c ees aes |
+  <ges=' a c>8. a,,8. bes8. <bes' ges' bes>8. |
+
+  \bar "||"
+  \key b \major
+
+  \time 3/8 <b= fis' b>8. b,8. | \time 6/8
+  cis16 gis' cis e cis gis  dis ais' dis ais dis, ais |
+  \ottava -1 <dis,, ais' dis>2. | \ottava 0
+
 }
