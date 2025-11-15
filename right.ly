@@ -179,4 +179,107 @@ right = \relative c''' {
   <e ais e'>4 <dis dis'>16 <cis cis'> <b dis b'>8. <ais ais'> |
   \once\override Parentheses.font-size = #1 <g cis dis g>2.\parenthesize\fermata |
 
+  <b=' cis dis ais'>16\arpeggio dis='' cis b ais dis, b dis ais' b cis dis |
+  ais' dis, cis b ais dis, b dis ais' b cis dis |
+  ais' dis, cis b ais dis, b dis ais' b cis dis |
+  ais'='' fis cis b fis cis b \change Staff = "left" \clef "treble" cis fis b \change Staff = "right" cis fis |
+
+  ais=''16 cis ais fis ais fis dis fis dis b dis b |
+  ais cis ais fis ais fis dis fis dis \change Staff = "left" b dis b |
+  \change Staff = "right" dis fis dis \change Staff = "left" \voiceOne b dis b gis b gis e gis e |
+  dis e gis b \change Staff = "right" \oneVoice dis e gis b dis e gis b |
+
+  dis cis b ais gis fis e dis cis b ais b |
+  cis dis ais cis gis ais fis gis dis fis cis dis |
+  e fis gis ais b cis dis e fis gis ais b |
+  dis fis b, dis ais b fis ais dis, fis b, cis |
+
+  dis fis b, dis ais b fis ais dis, fis b, cis |
+  dis fis b, dis \change Staff = "left" \voiceOne ais b fis ais dis, fis b, cis |
+  dis cis b ais b cis dis cis b ais b cis |
+  fis cis b ais b cis gis' cis, b ais b cis | \change Staff = "right" \oneVoice
+
+  ais'=4. r8. e' |
+  <fis, b dis>4. cis'8. \tuplet 4/3 { b16 cis dis e } |
+  <b dis>4. r8 cis8 b16 ais |
+  b8 cis ais' fis4. |
+
+  r8. <ais, b fis'>8. r8 e' dis |
+  <fis, b dis>4. cis'8. \tuplet 4/3 { b16 cis dis e } |
+  <b dis>4. r8 cis8 b16 ais |
+  b8 cis ais' fis dis'( ais') |
+
+  r8. <ais,=' b fis'>8. r8 e' dis |
+  <fis, b dis>4. cis'8. \tuplet 4/3 { b16 cis dis e } |
+  <b dis>4. r8 cis8 b16 ais |
+  b8 cis ais' fis \ottava 1 dis'( ais') \ottava 0 |
+
+  r8. <ais,,=' b fis'>8. r8 e' dis |
+  <fis, b dis>4. cis'8. \tuplet 4/3 { b16 cis dis e } |
+  <b dis>4. r8 cis8 b16 ais |
+  b4. cis  |
+
+  \bar "||"
+  \time 4/4
+  \tempo "Animato" 4 = 120
+
+
+
+
+  r4 <gis=' b fis'>2 e'8 dis8 |
+  <fis, b dis>2. b16 cis dis e |
+  <b dis>2 ~ 8 cis4 b16 ais |
+
+  <gis=' b>2 <a cis> |
+  <b dis>2 <cis e> |
+  <dis fis>2 <e gis> |
+  <fis ais>4 <gis b> \tuplet 3/2 { <ais cis>4 <b dis> <cis e> } |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  \time 6/8
+  \tempo 4. = 60
+
+
+
+  <b='' dis>4. r8 \ottava 1 cis='''8 b16 ais |
+  b8 cis ais' fis4 dis8 |
+  fis8 gis dis cis b ais \ottava 0 |
+
+
+
+
+
+
+
+
+
+  \key e \major
+
+  \tiny
+  \tuplet 15/12 { gis=''16[ a b a gis fis e dis cis b a gis fis e dis] } |
+  \tuplet 16/12 { cis='[ dis e fis gis a b cis dis e fis gis a b cis d] } |
+
+  \key a \major
+
+  \tuplet 18/12 { e='''[ fis e d cis b a gis fis e d cis b a gis fis e d] } |
+  cis='16 e g ais \tuplet 6/4 { cis8 e g ais cis e\fermata } |
+  \normalsize
+
+  \bar "||"
+  \key d \major
+  \time 3/4
+
+
 }

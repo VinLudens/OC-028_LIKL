@@ -179,4 +179,106 @@ left = \relative c''' {
   cis16 gis' cis e cis gis  dis ais' dis ais dis, ais |
   \ottava -1 <dis,, ais' dis>2. | \ottava 0
 
+  <gis=,, gis'>2. |
+  <fis fis'>2. |
+  <e e'>2. |
+  <cis cis'>2. |
+
+  \clef "bass" <gis'=,, gis'>2. |
+  <fis fis'>2. |
+  <e e'>2. |
+  \voiceTwo <cis cis'>2. \oneVoice |
+
+  <gis'=,, gis'>2. |
+  <fis fis'>2. |
+  <e e'>2. |
+  <cis cis'>2. |
+
+  <gis'=,, gis'>2. |
+  <fis fis'>2. |
+  \voiceTwo <e e'>2. |
+  <cis cis'>4. ~ 8. r8. | \oneVoice
+
+  \repeat unfold 2 { gis''=,16 dis' fis gis fis dis } |
+  \repeat unfold 2 { fis,16 cis' fis gis fis cis } |
+  \repeat unfold 2 { e,16 b' e fis e b } |
+  \repeat unfold 2 { cis,16 gis' cis e cis gis } |
+
+  \repeat unfold 2 { gis=,16 dis' fis gis fis dis } |
+  \repeat unfold 2 { fis,16 cis' fis gis fis cis } |
+  \repeat unfold 2 { e,16 b' e fis e b } |
+  cis,=, gis' cis e cis gis cis, gis' cis e gis cis |
+
+  \clef "treble" \repeat unfold 2 { gis=16 dis' fis gis fis dis } |
+  \repeat unfold 2 { fis,16 cis' fis gis fis cis } |
+  \repeat unfold 2 { e,16 b' e fis e b } |
+  \repeat unfold 2 { cis,16 gis' cis e cis gis } |
+
+  \repeat unfold 2 { gis=16 dis' fis gis fis dis } |
+  \repeat unfold 2 { fis,16 cis' fis gis fis cis } |
+  \repeat unfold 2 { e,16 b' e fis e b } |
+  \repeat unfold 2 { cis,16 gis' cis e cis gis } |
+
+  \bar "||"
+  \time 4/4
+  \clef "bass"
+
+  <<
+    {
+      \voiceOne
+      r4 <gis= b e>2. |
+      r4 q2. |
+      r4 <gis b dis>2. |
+
+      r4 <a= cis e>2 q4 |
+      r4 q2 r4 |
+      r4 <fis= ais cis>2 q4 |
+      r4 q2 q4 |
+    }
+    \new Voice {
+      \voiceTwo
+      e=1 |
+      cis1 |
+      b1 |
+
+      a1 |
+      a2. \tuplet 3/2 { a=,8 b gis} |
+      fis=,1  |
+      fis=,1  |
+    }
+  >> \oneVoice
+
+  \time 6/8
+
+  <<
+    {
+      \voiceOne
+      r4. <gis'= b e>4. |
+      r4. q4. |
+      r4. <gis b dis>4. |
+    }
+    \new Voice {
+      \voiceTwo
+      e=2. |
+      cis2. |
+      b2. |
+    }
+  >> \oneVoice
+
+  \key e \major
+
+
+  a=,4 <a' cis e>2 |
+  fis,4 <fis' a cis>2 |
+
+  \key a \major
+
+  d,=,4 <d' fis a>2 |
+  g,4 <e' g ais cis>2 |
+
+
+  \bar "||"
+  \key d \major
+  \time 3/4
+
 }
