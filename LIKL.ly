@@ -45,6 +45,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
     \new Staff = "right" \right
     \new Dynamics = "Dynamics" \dynamics
     \new Staff = "left" { \clef bass \left }
+    \new Dynamics = "pedal" \dynamics
   >>
   \layout {
     \context {

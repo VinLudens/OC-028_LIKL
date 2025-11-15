@@ -24,15 +24,15 @@ rubato = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 #(make-dynamic-script (markup #:dynamic "(m)p"))
 
-\editionMod dynamics 1 0/4 music.Dynamics \p
+\editionMod dynamics 1 0/4 music.Dynamics.A \p
 
-\editionMod dynamics 9 0/4 music.Dynamics \rit
+\editionMod dynamics 9 0/4 music.Dynamics.A \rit
 
-\editionMod dynamics 12 0/4 music.Dynamics \cresc
+\editionMod dynamics 12 0/4 music.Dynamics.A \cresc
 
-\editionMod dynamics 13 2/4 music.Dynamics \sp
+\editionMod dynamics 13 2/4 music.Dynamics.A \sp
 
-\editionMod dynamics 14 0/4 music.Dynamics \mf
+\editionMod dynamics 14 0/4 music.Dynamics.A \mf
 
 \editionMod dynamics 16 0/4 music.Voice.A ->
 \editionMod fingering 16 2/4 music.Voice.A -5
@@ -45,7 +45,7 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 16 17/32 music.Voice.B -1
 \editionMod fingering 16 18/32 music.Voice.B -2
 
-\editionMod dynamics 17 2/4 music.Dynamics \rall
+\editionMod dynamics 17 2/4 music.Dynamics.A \rall
 \editionMod fingering 17 19/32 music.Voice.B -3
 \editionMod fingering 17 20/32 music.Voice.B -5
 \editionMod fingering 17 21/32 music.Voice.B -2
@@ -56,9 +56,9 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 17 28/32 music.Voice.B -4
 \editionMod fingering 17 30/32 music.Voice.B -2
 
-\editionMod dynamics 18 0/4 music.Dynamics \sf
-\editionMod dynamics 18 1/32 music.Dynamics \atempo
-\editionMod dynamics 18 2/4 music.Dynamics \sf
+\editionMod dynamics 18 0/4 music.Dynamics.A \sf
+\editionMod dynamics 18 1/32 music.Dynamics.A \atempo
+\editionMod dynamics 18 2/4 music.Dynamics.A \sf
 \editionMod fingering 18 1/32 music.Voice.B -1
 \editionMod fingering 18 2/32 music.Voice.B -3
 \editionMod fingering 18 3/32 music.Voice.B -5
@@ -79,7 +79,7 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 18 30/32 music.Voice.B -3
 \editionMod fingering 18 31/32 music.Voice.B -4
 
-\editionMod dynamics 19 0/4 music.Dynamics \sf
+\editionMod dynamics 19 0/4 music.Dynamics.A \sf
 \editionMod fingering 19 2/16 music.Voice.B -2
 \editionMod fingering 19 3/16 music.Voice.B -1
 \editionMod fingering 19 4/16 music.Voice.B -1
@@ -87,22 +87,22 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 19 6/16 music.Voice.B -2
 \editionMod fingering 19 7/16 music.Voice.B -3
 
-\editionMod dynamics 22 0/4 music.Dynamics \>
+\editionMod dynamics 22 0/4 music.Dynamics.A \>
 
-\editionMod dynamics 23 0/4 music.Dynamics \p
+\editionMod dynamics 23 0/4 music.Dynamics.A \p
 
-\editionMod dynamics 26 0/4 music.Dynamics \mp
+\editionMod dynamics 26 0/4 music.Dynamics.A \mp
 
-\editionMod dynamics 34 1/8 music.Dynamics \mp
+\editionMod dynamics 34 1/8 music.Dynamics.A \mp
 
-\editionMod dynamics 38 3/4 music.Dynamics \<
+\editionMod dynamics 38 3/4 music.Dynamics.A \<
 
-\editionMod dynamics 39 0/4 music.Dynamics \mf
-\editionMod dynamics 39 3/4 music.Dynamics \>
+\editionMod dynamics 39 0/4 music.Dynamics.A \mf
+\editionMod dynamics 39 3/4 music.Dynamics.A \>
 
-\editionMod dynamics 40 1/4 music.Dynamics \p
+\editionMod dynamics 40 1/4 music.Dynamics.A \p
 \editionMod dynamics 40 1/4 music.Voice.A \shortfermata
-\editionMod dynamics 40 2/4 music.Dynamics \mp
+\editionMod dynamics 40 2/4 music.Dynamics.A \mp
 
 \editionMod fingering 41 0/16 music.Voice.B -2
 \editionMod fingering 41 0/16 music.Voice.A -5
@@ -208,16 +208,16 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 52 10/16 music.Voice.A -2
 \editionMod fingering 52 11/16 music.Voice.A -3
 
-\editionMod dynamics 53 0/4 music.Dynamics \mf
+\editionMod dynamics 53 0/4 music.Dynamics.A \mf
 \editionMod fingering 53 10/16 music.Voice.A -4
 \editionMod fingering 53 11/16 music.Voice.A -3
 
-\editionMod dynamics 54 3/8 music.Dynamics \f
+\editionMod dynamics 54 3/8 music.Dynamics.A \f
 \editionMod fingering 54 4/16 music.Voice.A -4
 \editionMod fingering 54 5/16 music.Voice.A -3
 
 \editionMod dynamics 59 0/4 music.Voice.A ->
-\editionMod dynamics 59 0/4 music.Dynamics \mf
+\editionMod dynamics 59 0/4 music.Dynamics.A \mf
 
 \editionMod fingering 62 1/16 music.Voice.A  -4
 \editionMod fingering 62 4/16 music.Voice.A  -4
@@ -310,25 +310,25 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 73 0/16 music.Voice.A  -3
 \editionMod fingering 73 3/16 music.Voice.A  -2
 
-\editionMod dynamics 75 0/4 music.Dynamics \mf
+\editionMod dynamics 75 0/4 music.Dynamics.A \mf
 \editionMod fingering 75 0/16 music.Voice.A  -5
 
-\editionMod dynamics 91 0/4 music.Dynamics \sf
+\editionMod dynamics 91 0/4 music.Dynamics.A \sf
 
-\editionMod dynamics 93 5/8 music.Dynamics \>
+\editionMod dynamics 93 5/8 music.Dynamics.A \>
 \editionMod fingering 93 14/16 music.Voice.A -1
 \editionMod fingering 93 15/16 music.Voice.A -3
 
-\editionMod dynamics 94 0/4 music.Dynamics \mp
+\editionMod dynamics 94 0/4 music.Dynamics.A \mp
 
-\editionMod dynamics 95 3/4 music.Dynamics \<
+\editionMod dynamics 95 3/4 music.Dynamics.A \<
 
-\editionMod dynamics 96 0/4 music.Dynamics \mf
-\editionMod dynamics 96 1/4 music.Dynamics \cresc
+\editionMod dynamics 96 0/4 music.Dynamics.A \mf
+\editionMod dynamics 96 1/4 music.Dynamics.A \cresc
 
-\editionMod dynamics 98 0/4 music.Dynamics \sp
+\editionMod dynamics 98 0/4 music.Dynamics.A \sp
 
-\editionMod dynamics 101 0/4 music.Dynamics \rubato
+\editionMod dynamics 101 0/4 music.Dynamics.A \rubato
 \editionMod fingering 101 1/20 music.Voice.A -4
 \editionMod fingering 101 6/20 music.Voice.A -1
 \editionMod fingering 101 12/20 music.Voice.A -1
@@ -353,22 +353,22 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 104 1/16 music.Voice.A -1
 \editionMod fingering 104 16/48 music.Voice.A -1
 
-\editionMod dynamics 105 0/4 music.Dynamics \pp
+\editionMod dynamics 105 0/4 music.Dynamics.A \pp
 
 \editionMod fingering 108 0/4 music.Voice.A -5
 \editionMod fingering 108 1/4 music.Voice.A -4
 \editionMod fingering 108 2/4 music.Voice.A -3
 
-\editionMod dynamics 110 0/4 music.Dynamics \<
+\editionMod dynamics 110 0/4 music.Dynamics.A \<
 
-\editionMod dynamics 111 0/4 music.Dynamics \mP
+\editionMod dynamics 111 0/4 music.Dynamics.A \mP
 
-\editionMod dynamics 117 0/4 music.Dynamics \rall
+\editionMod dynamics 117 0/4 music.Dynamics.A \rall
 
-\editionMod dynamics 119 0/4 music.Dynamics \mf
-\editionMod dynamics 119 1/8 music.Dynamics \atempo
+\editionMod dynamics 119 0/4 music.Dynamics.A \mf
+\editionMod dynamics 119 1/8 music.Dynamics.A \atempo
 
-\editionMod dynamics 123 4/8 music.Dynamics \<
+\editionMod dynamics 123 4/8 music.Dynamics.A \<
 \editionMod fingering 123 4/8 music.Voice.A -1
 \editionMod fingering 123 5/8 music.Voice.A -2
 
@@ -378,21 +378,21 @@ mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod fingering 124 3/8 music.Voice.A -1
 \editionMod fingering 124 4/8 music.Voice.A -3
 
-\editionMod dynamics 125 0/8 music.Dynamics \f
+\editionMod dynamics 125 0/8 music.Dynamics.A \f
 
-\editionMod dynamics 128 2/4 music.Dynamics \<
+\editionMod dynamics 128 2/4 music.Dynamics.A \<
 
-\editionMod dynamics 129 0/4 music.Dynamics \ff
+\editionMod dynamics 129 0/4 music.Dynamics.A \ff
 
 \editionMod dynamics 130 2/4 music.Voice.B ->
 
-\editionMod dynamics 131 0/4 music.Dynamics \sfz
+\editionMod dynamics 131 0/4 music.Dynamics.A \sfz
 \editionMod dynamics 131 0/4 music.Voice.B ->
 
-\editionMod dynamics 135 0/4 music.Dynamics \fp
+\editionMod dynamics 135 0/4 music.Dynamics.A \fp
 
-\editionMod dynamics 142 0/4 music.Dynamics \pp
+\editionMod dynamics 142 0/4 music.Dynamics.A \pp
 
-\editionMod dynamics 148 0/4 music.Dynamics \pp
+\editionMod dynamics 148 0/4 music.Dynamics.A \pp
 
-\editionMod dynamics 151 0/4 music.Dynamics \pp
+\editionMod dynamics 151 0/4 music.Dynamics.A \pp
