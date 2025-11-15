@@ -38,7 +38,7 @@ right = \relative c''' {
 
 
 
-  des=''4 c aes ges |
+  des=''4 c aes ges \once\override Score.RehearsalMark.break-visibility = #begin-of-line-invisible \mark \markup { \musicglyph "scripts.ufermata" } |
 
 
 
@@ -345,7 +345,7 @@ right = \relative c''' {
   \time 9/8
 
   \tuplet 4/3 4. { dis=''''8 e dis b g fis e dis } e fis g
-  \tuplet 4/3 4. { fis e dis cis b ais gis fis \ottava 0 e dis cis dis }
+  \tuplet 4/3 4. { fis e dis cis b ais gis fis \ottava 0 e dis cis dis\fermata }
 
   \acciaccatura dis16 b2. ~ 4. |
   <dis,=' b' dis>2. ~ 4.\fermata |
