@@ -81,11 +81,11 @@ left = \relative c''' {
   <<
     {
       \voiceTwo
-      des=,32 f'-"R.H." aes f c' f, des' f, c' f, des' f, c' f, aes f ees,=,32 ges' aes ges c ges des' ges, c ges des' ges, c ges aes ges |
-      f,=,32 f' aes f c' f, des' f, ees' f, des' f, c' f, aes f ges,=,32 ges' bes des f bes, ees ges, des' ges, c ges ees' ges, bes ges |
+      des=,32 f'-"R.H." aes f c'\( f, des' f, c' f, des' f, c' f, aes\) f ees,=,32 ges' aes ges c\( ges des' ges, c ges des' ges, c ges aes\) ges |
+      f,=,32 f' aes f c'\( f, des' f, ees' f, des' f, c' f, aes\) f ges,=,32 ges' bes des f\( bes, ees ges, des' ges, c ges ees' ges, bes\) ges |
 
-      des,=,32 f'-"L.H." aes f c' f, des' f, c' f, des' f, c' f, aes f ees,=,32 ges' aes ges c ges des' ges, c ges des' ges, c ges aes ges |
-      f,=,32 f' aes f c' f, des' f, ees' f, des' f, c' f, aes f ges,=,64 \tiny ges' bes des f \change Staff = "right" ges bes des f des bes ges \change Staff = "left" f des bes ges \tuplet 14/16 { \normalsize ges,=, \tiny geses' beses deses f \change Staff = "right" beses deses f deses beses \change Staff = "left" f deses beses geses } |
+      des,=,32 f'-"L.H." aes f c'\( f, des' f, c' f, des' f, c' f, aes f\) ees,=,32 ges' aes ges c\( ges des' ges, c ges des' ges, c ges aes\) ges |
+      f,=,32 f' aes f c'\( f, des' f, ees' f, des' f, c' f, aes\) f ges,=,64 \tiny ges' bes des f \change Staff = "right" ges bes des f des bes ges \change Staff = "left" f des bes ges \tuplet 14/16 { \normalsize ges,=, \tiny geses' beses deses f \change Staff = "right" beses deses f deses beses \change Staff = "left" f deses beses geses } |
     }
     \new Voice {
       \voiceOne \mergeDifferentlyHeadedOn
@@ -170,12 +170,12 @@ left = \relative c''' {
 
   ees=,16 bes' ees ges bes ees  f,, c' f aes c f |
   ges,, des' ges bes des ges  aes,, ees' aes c ees aes |
-  <ges=' a c>8. a,,8. bes8. <bes' ges' bes>8. |
+  <ges=' a c>8. a,,8. bes8. <bes' ges' bes>8.\( |
 
   \bar "||"
   \key b \major
 
-  \time 3/8 <b= fis' b>8. b,8. | \time 6/8
+  \time 3/8 <b= fis' b>8.\) b,8. | \time 6/8
   cis16 gis' cis e cis gis  dis ais' dis ais dis, ais |
   \ottava -1 <dis,, ais' dis>2. | \ottava 0
 
