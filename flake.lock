@@ -52,11 +52,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1763067847,
-        "narHash": "sha256-0N8LWlpt7W7KY2a4oSd7iggiqlOtN2rdIbpY5cN5AtY=",
+        "lastModified": 1763215105,
+        "narHash": "sha256-C8nLmV5eE15iF37qK368D0UuSk/jwJv/h1o/KRJbGjA=",
         "owner": "niveK77pur",
         "repo": "lilypond-midi-input",
-        "rev": "0a76193dcc93b6dc8b973d60580b2208787c953e",
+        "rev": "29bfd6c14fc0c681fa2d85465806b362e339678b",
         "type": "github"
       },
       "original": {
