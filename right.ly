@@ -329,4 +329,27 @@ right = \relative c''' {
   s2. |
   \ottava 1 q2. \once \set Staff.caesuraType = #'((underlying-bar-line . "||")) \once \set Staff.caesuraTypeTransform = ##f \caesura ^\fermata |
 
+  \bar "||"
+  \key b \major
+  \time 6/8
+  \tempo 4. = 60
+
+  <gis='' b fis'>4.\arpeggio q8 e' dis |
+  <fis, b dis>4. b8. cis16 dis e |
+  <b dis>4. cis='''8 b ais |
+
+  b8 cis ais' \acciaccatura ais16 fis4 dis8 |
+  fis8 gis dis cis b ais |
+  b cis ais' \acciaccatura ais16 cis4 cis8 |
+
+  \time 9/8
+
+  \tuplet 4/3 4. { dis=''''8 e dis b g fis e dis } e fis g
+  \tuplet 4/3 4. { fis e dis cis b ais gis fis \ottava 0 e dis cis dis }
+
+  \acciaccatura dis16 b2. ~ 4. |
+  <dis,=' b' dis>2. ~ 4.\fermata |
+
+  \fine
+
 }

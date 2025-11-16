@@ -329,4 +329,27 @@ left = \relative c''' {
   \change Staff = "right" <b' d> \change Staff = "left" <d, g> <g, d'> |
   <g, g'>2. |
 
+  \bar "||"
+  \key b \major
+  \time 6/8
+
+  \once \set PianoStaff.connectArpeggios = ##t
+  \clef "treble" <gis''=' dis' fis>4.\arpeggio <g dis' fis> |
+  <fis b dis> <eis gis b dis> |
+  <e gis b dis> <dis fis ais cis> |
+
+  <d fis a cis> <cis e gis b> |
+  <b dis fis ais> <ais cis e gis> |
+  <a cis e gis> <gis b dis fis> |
+
+  \time 9/8
+
+  <g b dis fis>2. ~ 4. |
+  <fis ais cis e>2. ~ 4. |
+
+  \clef "bass" \set tieWaitForNote = ##t b,=,4.~ fis'~ b~ |
+  <b, fis' b>2. ~ 4. |
+
+  \fine
+
 }
