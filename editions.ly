@@ -49,3 +49,10 @@
 \editionMod fingering 18 22/32 music.Voice.B -1
 \editionMod fingering 18 30/32 music.Voice.B -3
 \editionMod fingering 18 31/32 music.Voice.B -4
+
+\editionMod fingering 19 2/16 music.Voice.B -2
+\editionMod fingering 19 3/16 music.Voice.B -1
+\editionMod fingering 19 4/16 music.Voice.B -1
+\editionMod fingering 19 5/16 music.Voice.B -1
+\editionMod fingering 19 6/16 music.Voice.B -2
+\editionMod fingering 19 7/16 music.Voice.B -3
