@@ -29,3 +29,23 @@
 \editionMod fingering 17 26/32 music.Voice.B -2
 \editionMod fingering 17 28/32 music.Voice.B -4
 \editionMod fingering 17 30/32 music.Voice.B -2
+
+\editionMod fingering 18 1/32 music.Voice.B -1
+\editionMod fingering 18 2/32 music.Voice.B -3
+\editionMod fingering 18 3/32 music.Voice.B -5
+\editionMod fingering 18 4/32 music.Voice.B -2
+\editionMod fingering 18 5/32 music.Voice.B -5
+\editionMod fingering 18 6/32 music.Voice.B -1
+\editionMod fingering 18 8/32 music.Voice.B -2
+\editionMod fingering 18 10/32 music.Voice.B -1
+\editionMod fingering 18 12/32 music.Voice.B -2
+\editionMod fingering 18 14/32 music.Voice.B -3
+\editionMod fingering 18 15/32 music.Voice.B -5
+\editionMod fingering 18 17/32 music.Voice.B -1
+\editionMod fingering 18 18/32 music.Voice.B -3
+\editionMod fingering 18 19/32 music.Voice.B -4
+\editionMod fingering 18 20/32 music.Voice.B -2
+\editionMod fingering 18 21/32 music.Voice.B -4
+\editionMod fingering 18 22/32 music.Voice.B -1
+\editionMod fingering 18 30/32 music.Voice.B -3
+\editionMod fingering 18 31/32 music.Voice.B -4
