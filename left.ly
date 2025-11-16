@@ -281,4 +281,52 @@ left = \relative c''' {
   \key d \major
   \time 3/4
 
+  \once \set PianoStaff.connectArpeggios = ##t
+  \clef "treble" <a'=' d fis>2.\arpeggio ~ |
+  2. |
+  <g d'>2. ~ |
+  2. |
+
+  <fis b d>2. ~ |
+  2. |
+  <g b d>2. |
+  q2. |
+
+  <fis b dis>2. |
+  q2. |
+
+  <e gis b>2. ~ |
+  2. |
+  <c e g>2. ~ |
+  2. |
+
+  \clef "bass" d,,8 a'=, d fis a d |
+  fis d a fis d a |
+  g d' g b d g |
+  fis,, cis' fis a cis fis |
+
+  b,, d fis b \change Staff = "right" d=' fis \change Staff = "left" |
+  s2. |
+  <g,,,=,, g'>4 <g' d'> g' |
+  <g d'> <g, g'> <g, g'>
+
+  <fis=,, fis'>4 <fis' cis' fis> <fis' cis'> |
+  <b,, b'>4 <b' d fis b>2 |
+
+  <e,,=,, e'>4 <e' b' e> <e' gis b> |
+  \clef "treble" <e' gis b> \clef "bass" <e, gis b> <e, e'> |
+  <c c'> <c' e fis> <e fis c'> |
+
+  \clef "treble" <e' fis c'> <c e fis> \clef "bass" <e, fis c'> |
+  <c, c'> <c' e fis> <e fis c'> |
+  \clef "treble" <e' fis c'> <c fis> \clef "bass" <e, fis c'> |
+
+  <g, g'> <g' d'> <d' g> |
+  \change Staff = "right" <b' d> \change Staff = "left" <d, g> <g, d'> |
+  <g, g'> <g' d'> <d' g> |
+  \change Staff = "right" <b' d> \change Staff = "left" <d, g> <g, d'> |
+  <g, g'> <g' d'> <d' g> |
+  \change Staff = "right" <b' d> \change Staff = "left" <d, g> <g, d'> |
+  <g, g'>2. |
+
 }

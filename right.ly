@@ -280,6 +280,53 @@ right = \relative c''' {
   \bar "||"
   \key d \major
   \time 3/4
+  \tempo "Larghetto" 2. = 50 - 56
 
+  \ottava 1 <a,='' d fis>2.\arpeggio |
+  a4 d fis |
+  <g, b fis'>2 e'4 |
+  g4 fis cis |
+
+  <fis, b d>2. |
+  b4 d fis |
+  <b, d b'>2 b'4 |
+  q4 a g |
+
+  <a, dis a'>2 a'4 |
+  q4 g fis |
+
+  <gis, b fis'>4 d' b  |
+  gis b d |
+  <g, c fis>4\arpeggio e' c |
+  g c e |
+
+  <a,='' d fis>2.\arpeggio \ottava 0 |
+  a,4 d fis |
+  fis4. e |
+  g4 fis cis |
+
+  d2. |
+  b8 fis d' b fis' b,=' ~ |
+  <b~ d b'>4. <b~ d b'>4 <b~ d b'>8 |
+  <b d b'>4 <cis cis'> <d d'>8 <e e'> |
+
+  <a, cis fis a>2 <d d'>4 |
+  <d fis b d>2 <b b'>8 <cis cis'> |
+
+  <d='' gis b d>2 <e gis b e>4 |
+  q2. |
+  r2 \ottava 1 <fis c' e fis>4 |
+
+  q2. |
+  <g c e g>2. |
+  <a d fis a>2 r8 <c c'> |
+
+  <b d g b>2. \ottava 0 |
+  s2 r8 \ottava 1 <c c'> |
+  <b d g b>2. \ottava 0 |
+  s2 r8 \ottava 1 <c c'> |
+  <b d g b>2. \ottava 0 |
+  s2. |
+  \ottava 1 q2. \once \set Staff.caesuraType = #'((underlying-bar-line . "||")) \once \set Staff.caesuraTypeTransform = ##f \caesura ^\fermata |
 
 }
