@@ -3,4 +3,4 @@
 	url = https://github.com/openlilylib/oll-core.git
 [submodule "openlilylib/edition-engraver"]
 	path = openlilylib/edition-engraver
-	url = https://github.com/openlilylib/edition-engraver.git
+	url = https://github.com/niveK77pur/edition-engraver.git
