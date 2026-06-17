@@ -105,7 +105,7 @@ left = \relative c''' {
 
   \key des \major
   \tuplet 6/4 4 { ees=,16 bes' ees ges bes des  bes16 ges ees des bes ges } |
-  \tuplet 6/4 { aes,16 ees' aes c ees aes } c4 |
+  \tuplet 6/4 { aes,16 ees' aes c ees aes } c8 r |
   c,=16 ees ges bes c \change Staff = "right" ees ges bes | \change Staff = "left"
   \cadenzaOn a,,[ ees' ges a] \change Staff = "right" c[ ees ges a c] ees[ ges a \cadenzaOff \partial 8 aes ges] | \change Staff = "left"
 
