@@ -315,9 +315,9 @@ left = \relative c''' {
 
   <e,,=,, e'>4 <e' b' e> <e' gis b> |
   \clef "treble" <e' gis b> \clef "bass" <e, gis b> <e, e'> |
-  <c c'> <c' e fis> <e fis c'> |
+  <c c'> <c'-5 e-3 fis-2> <e-3 fis-2 c'-1> |
 
-  \clef "treble" <e' fis c'> <c e fis> \clef "bass" <e, fis c'> |
+  \clef "treble" <e'-3 fis-2 c'-1> <c-5 e-3 fis-2> \clef "bass" <e,-3 fis-2 c'-1> |
   <c, c'> <c' e fis> <e fis c'> |
   \clef "treble" <e' fis c'> <c fis> \clef "bass" <e, fis c'> |
 

@@ -168,8 +168,8 @@ right = \relative c''' {
   f ees des c bes aes ges f ees des c des  |
   ees f c ees bes c aes bes f aes ees( f |
 
-  <bes,=' des ges>8.) r8 f''16( <f, aes ees'>8.) r16 des'16 c |
-  <ges bes ees>8. \ottava 0 r16 des' c <ees, aes c>4. |
+  <bes,='-1 des-2 ges-4>8.) r8 f''16( <f, aes ees'>8.) r16 des'16 c |
+  <ges bes ees-5>8. \ottava 0 r16 des' c <ees,-1 aes-2 c-3>4. |
   <ees a c>4. <ees bes' ees>4. |
 
   \bar "||"
@@ -230,10 +230,10 @@ right = \relative c''' {
   <fis, b dis>2. b16 cis dis e |
   <b dis>2 ~ 8 cis4 b16 ais |
 
-  <gis=' b>2 <a cis> |
-  <b dis>2 <cis e> |
-  <dis fis>2 <e gis> |
-  <fis ais>4 <gis b> \tuplet 3/2 { <ais cis>4 <b dis> <cis e> } |
+  <gis='-2 b-4>2 <a-1 cis-3> |
+  <b dis-4>2 <cis e-5> |
+  <dis fis-2>2 <e gis-3> |
+  <fis ais-4>4 <gis b-5> \tuplet 3/2 { <ais cis-2>4 <b dis-3> <cis e-4> } |
 
 
 
@@ -253,7 +253,7 @@ right = \relative c''' {
 
 
 
-  <b='' dis>4. r8 \ottava 1 cis='''8 b16 ais |
+  <b=''-1 dis-3>4. r8 \ottava 1 cis='''8 b16 ais |
   b8 cis ais' fis4 dis8 |
   fis8 gis dis cis b ais \ottava 0 |
 
@@ -287,7 +287,7 @@ right = \relative c''' {
   <g, b fis'>2 e'4 |
   g4 fis cis |
 
-  <fis, b d>2. |
+  <fis, b d-4>2. |
   b4 d fis |
   <b, d b'>2 b'4 |
   q4 a g |
