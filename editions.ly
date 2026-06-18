@@ -24,6 +24,10 @@ rubato = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 mP = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 #(make-dynamic-script (markup #:dynamic "(m)p"))
 
+#(primitive-load "pedal.scm")
+sustainTrailStart = { \once\override Dynamics.PianoPedalBracket.stencil = #(pedal-split-dash 60/100 'left) }
+sustainTrailEnd   = { \once\override Dynamics.PianoPedalBracket.stencil = #(pedal-split-dash 60/100 'right) }
+
 \editionMod dynamics 1 0/4 music.Dynamics.A \p
 
 \editionMod dynamics 9 0/4 music.Dynamics.A \rit
