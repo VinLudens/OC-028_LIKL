@@ -7,8 +7,10 @@ dynamics = {
   % \override TextScript.extra-offset = #'(0 . 1)
 
   s1*19 |
-  s2*5 |
-  \cadenzaOn s4 s2 \cadenzaOff \partial 8 s8 |
+  s2*3 |
+  s4.. s16 | % subdivide explicitly for pedal marking
+  s2 |
+  \cadenzaOn s4\sustainOff\sustainOn s8. s8\sustainOff s8. \cadenzaOff \partial 8 s8 |
   s1*15 |
   s2.*15 |
   s4. |

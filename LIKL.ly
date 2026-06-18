@@ -43,7 +43,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } <<
     \accidentalStyle piano
     \new Staff = "right" \right
-    \new Dynamics = "Dynamics" \dynamics
+    \new Dynamics = "Dynamics" \with {\remove Piano_pedal_engraver} \dynamics
     \new Staff = "left" { \clef bass \left }
     \new Dynamics = "pedal" \dynamics
   >>
@@ -60,7 +60,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
       \new Staff = "right" \with {
         midiInstrument = "acoustic grand"
       } \right
-      \new Dynamics = "Dynamics" \dynamics
+      \new Dynamics = "Dynamics" \with {\remove Piano_pedal_engraver} \dynamics
       \new Staff = "left" \with {
         midiInstrument = "acoustic grand"
       } { \clef bass \left }

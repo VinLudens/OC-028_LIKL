@@ -3,6 +3,7 @@
 
 global = {
   \time 4/4
+  \set Staff.pedalSustainStyle = #'bracket
 }
 
 %{
